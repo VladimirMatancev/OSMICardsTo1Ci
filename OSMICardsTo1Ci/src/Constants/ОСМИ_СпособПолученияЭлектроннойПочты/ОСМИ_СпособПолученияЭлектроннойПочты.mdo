@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa78152d-32ca-4360-bc62-aa12e187c3f1">
+  <producedTypes>
+    <managerType typeId="b9218dba-fb8c-4d48-91f4-4d3c4ca1ec12" valueTypeId="7e90bb20-66fb-48eb-b4fa-08c5f9a91c6b"/>
+    <valueManagerType typeId="747d211a-4d20-4fbe-b5a0-3c28014b1eb9" valueTypeId="6aed0114-afa3-4be7-9b8b-8cac2950f795"/>
+    <valueKeyType typeId="474bfa9d-24e4-5561-bae3-d58cbb12bd8f" valueTypeId="96ffd817-ea8c-5c37-833a-e899fd7cf147"/>
+  </producedTypes>
+  <name>ОСМИ_СпособПолученияЭлектроннойПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОСМИ способ получения электронной почты</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ОСМИ_ИсточникДанных</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

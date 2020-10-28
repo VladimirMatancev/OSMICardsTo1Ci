@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ba887a3-89f0-428c-939d-5835263199cb">
+  <name>OSMICardsTo1Ci</name>
+  <synonym>
+    <key>ru</key>
+    <value>OSMI Cards to 1Ci</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="99d31bac-b1ea-43a3-be8b-d99fb95214de"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="0eca97fa-dbd6-4b15-858d-bb11378466b5"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="2cffa3c7-96c5-408e-a566-bd5822b7eccf"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="89d3f55c-6ac1-480b-9052-bea0c423c86c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="312b96ff-0832-457a-b8f5-78a1a37d9e3e"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e4ebc71d-359f-466d-a495-3140b4ee554b"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="a8d562f2-b7a4-43af-87dc-3c74315ee982"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor> VladimirMatancev</vendor>
+  <version>1.0.0.1</version>
+  <updateCatalogAddress>https://github.com/VladimirMatancev/OSMICardsTo1Ci</updateCatalogAddress>
+  <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
+  <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value> VladimirMatancev</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/VladimirMatancev</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/VladimirMatancev/OSMICardsTo1Ci</value>
+  </configurationInformationAddress>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="f85bd388-9a65-4850-9268-38e59571724b">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ОСМИ_Общие</subsystems>
+  <subsystems>Subsystem.ОСМИ</subsystems>
+  <commonPictures>CommonPicture.Подсистема_ОСМИ</commonPictures>
+  <roles>Role.ОСМИ_Администратор</roles>
+  <roles>Role.ОСМИ_Специалист</roles>
+  <roles>Role.ОСМИ_Пользователь</roles>
+  <commonModules>CommonModule.ОСМИ_РаботаСAPI</commonModules>
+  <commonModules>CommonModule.ОСМИ_ОбщиеСервер</commonModules>
+  <commonModules>CommonModule.ОСМИ_РегламентныеЗадания</commonModules>
+  <commonModules>CommonModule.ОСМИ_ПодпискиНаСобытия</commonModules>
+  <commonModules>CommonModule.ОСМИ_ПовторноИспользуемый</commonModules>
+  <commonModules>CommonModule.ОСМИ_Общие836</commonModules>
+  <commonModules>CommonModule.ОСМИ_Общие8313</commonModules>
+  <xDTOPackages>XDTOPackage.OSMI</xDTOPackages>
+  <webServices>WebService.OSMI_Event</webServices>
+  <httpServices>HTTPService.ОСМИ_ИсточникСобытий</httpServices>
+  <eventSubscriptions>EventSubscription.ОСМИ_ПроведениеДокументов</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ОСМИ_ЗаписьСправочника</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.ОСМИ_ВыполнениеОтложенныхДействий</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОСМИ_РегламентноеЗадание</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОСМИ_ПроверкаШаблоновКарт</scheduledJobs>
+  <functionalOptions>FunctionalOption.ОСМИ_ПодсистемаВключена</functionalOptions>
+  <definedTypes>DefinedType.ОСМИ_ДисконтнаяКарта</definedTypes>
+  <commonCommands>CommonCommand.ОСМИ_ОткрытьФормуЭлектроннойКарты</commonCommands>
+  <commonCommands>CommonCommand.ОСМИ_ОтправитьПоСМС</commonCommands>
+  <commonCommands>CommonCommand.ОСМИ_ПроверитьДоставку</commonCommands>
+  <commonCommands>CommonCommand.ОСМИ_ОтправитьПоЭлектроннойПочте</commonCommands>
+  <commonCommands>CommonCommand.ОСМИ_УправлениеСистемой</commonCommands>
+  <commonCommands>CommonCommand.ОСМИ_СоздатьЭлектроннуюКарту</commonCommands>
+  <commonCommands>CommonCommand.ОСМИ_ПроверкаШаблоновКарт</commonCommands>
+  <constants>Constant.ОСМИ_APIID</constants>
+  <constants>Constant.ОСМИ_APIKEY</constants>
+  <constants>Constant.ОСМИ_СпособПолученияЭлектроннойПочты</constants>
+  <constants>Constant.ОСМИ_КлиентскийСертификат</constants>
+  <constants>Constant.ОСМИ_ШаблонПоУмолчанию</constants>
+  <constants>Constant.ОСМИ_ИспользоватьСертификат</constants>
+  <constants>Constant.ОСМИ_РасполажениеСертификата</constants>
+  <constants>Constant.ОСМИ_ПарольОтСертификата</constants>
+  <constants>Constant.ОСМИ_APIADDR</constants>
+  <constants>Constant.ОСМИ_ПодсистемаВключена</constants>
+  <constants>Constant.ОСМИ_СпособПолученияТелефона</constants>
+  <constants>Constant.ОСМИ_EmailАдминистратора</constants>
+  <commonForms>CommonForm.ОСМИ_УправлениеСистемой</commonForms>
+  <catalogs>Catalog.ОСМИ_ЭлектроннаяКарта</catalogs>
+  <catalogs>Catalog.ОСМИ_ШаблонКарты</catalogs>
+  <catalogs>Catalog.ОСМИ_ИсточникДанных</catalogs>
+  <catalogs>Catalog.ОСМИ_НастройкаСобытий</catalogs>
+  <catalogs>Catalog.ОСМИ_РегистрационныеГруппы</catalogs>
+  <catalogs>Catalog.ОСМИ_Картинки</catalogs>
+  <catalogs>Catalog.ОСМИ_Тест</catalogs>
+  <catalogs>Catalog.ОСМИ_ГруппыПолучателей</catalogs>
+  <documents>Document.ОСМИ_ПушРассылка</documents>
+  <documents>Document.ОСМИ_ДинамическаяАкция</documents>
+  <enums>Enum.ОСМИ_Действие</enums>
+  <enums>Enum.ОСМИ_ДопИсточникиДействий</enums>
+  <enums>Enum.ОСМИ_СодержимоеБаркодаПодписи</enums>
+  <enums>Enum.ОСМИ_ТипыКартинок</enums>
+  <reports>Report.ОСМИ_СтатусыДоставок</reports>
+  <dataProcessors>DataProcessor.ОСМИ_МастерПоНастройке</dataProcessors>
+  <dataProcessors>DataProcessor.ОСМИ_ЗагрузкаАдресатов</dataProcessors>
+  <informationRegisters>InformationRegister.ОСМИ_ОтложенныеДействия</informationRegisters>
+  <informationRegisters>InformationRegister.ОСМИ_СоответствиеКарт</informationRegisters>
+  <informationRegisters>InformationRegister.ОСМИ_ДатыОбновлений</informationRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ceb192a8-6d75-4690-879a-2964ce57cc47">
+  <producedTypes>
+    <managerType typeId="7e129de2-3a48-4f38-841d-3c1144879eb8" valueTypeId="0d5b7411-bcea-405b-90b1-f844307f26ca"/>
+    <valueManagerType typeId="b3976b75-cceb-475d-914f-40539ecffdc9" valueTypeId="dfd60416-f3fd-4146-b01c-995482eb0d0f"/>
+    <valueKeyType typeId="de56acd1-6bd6-5e39-b79b-f1867683b58e" valueTypeId="a5feeb31-0141-5cf2-97e2-3e8530ab9088"/>
+  </producedTypes>
+  <name>ОСМИ_СпособПолученияТелефона</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОСМИ способ получения телефона</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ОСМИ_ИсточникДанных</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

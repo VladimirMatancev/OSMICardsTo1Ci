@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08791eb2-f6a5-44e6-86c3-9ea3c0a95ec4">
+  <producedTypes>
+    <selectionType typeId="532f94c5-81ba-4f89-8436-18496bb4488a" valueTypeId="a2a70bb9-0537-4f58-8718-6a33e1fcefe4"/>
+    <listType typeId="e545ac14-daec-4af7-8c38-82c585bc1e87" valueTypeId="9e54f462-b8fd-4873-acf1-4255197432fa"/>
+    <managerType typeId="dbb48171-8b82-47c4-8b84-eb33b48df356" valueTypeId="9f9a9aac-a2b6-48ec-b12e-e8e00ada96b2"/>
+    <recordSetType typeId="55eda5fa-5b26-402f-ad0a-096cb4b040c0" valueTypeId="433da2d7-95ef-4df7-8089-1fed18a23890"/>
+    <recordKeyType typeId="58d2b765-5dad-48d9-8412-6b2aba86d5bb" valueTypeId="828ffd94-cabc-4273-ac35-1c9f34a7773e"/>
+    <recordType typeId="16d090e5-01aa-4472-8754-93a57f709f06" valueTypeId="a585b158-d236-4954-91e1-a9a5aeaeb80d"/>
+    <recordManagerType typeId="e0bcdbfc-85c6-4670-8123-f249f07f7243" valueTypeId="a66f45b0-68db-4cd9-8019-1153f8183fc7"/>
+  </producedTypes>
+  <name>ОСМИ_ОтложенныеДействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОСМИ отложенные действия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2701272d-4fe6-4dc4-831b-61daaa625182">
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="99edf252-e1b4-42f5-b9c3-845deb02e30b">
+    <name>Действие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ОСМИ_Действие</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="04bceb4c-7bc8-411c-8db0-f74448a7cbea">
+    <name>ВремяВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время выполнения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="57670625-a07d-43db-8bfa-86d858d6b0f9">
+    <name>ИсточникСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник события</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ОСМИ_ДопИсточникиДействий</types>
+      <types>DocumentRef</types>
+      <types>TaskRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b30041ed-f527-485d-8502-bcb7b67eb0ce">
+    <name>ИдентификаторИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор источника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

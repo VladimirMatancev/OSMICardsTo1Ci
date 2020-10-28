@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1d0e1d8-0c35-4e9b-93f3-97252873baad">
+  <producedTypes>
+    <objectType typeId="c7128cbd-6dc8-4952-8bec-19feaa8bf854" valueTypeId="7092e5fd-0d57-4625-b9be-7c47f5f008a9"/>
+    <managerType typeId="8290cb6d-62a9-430a-b612-0c4f6c0adcad" valueTypeId="7664b68a-2c2f-4978-9b74-f4e5a945e24d"/>
+  </producedTypes>
+  <name>ОСМИ_МастерПоНастройке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер по настройке ОСМИ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОСМИ_МастерПоНастройке.Form.ФормаНастройкиОсновная</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="5d5366cc-eadb-4efb-9459-d082d53fa457">
+    <name>ФормаНастройкиОсновная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки основная</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="13f9e407-0097-4afb-a90d-c1a040fc2097">
+    <name>ФормаНастройкиОповещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки оповещений (Вэб сервисов)</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b39cb206-ab19-41ee-bb6b-fbb6509fca5c">
+    <name>ФормаНастройкиШаблонов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки шаблонов</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aec63e8a-0641-49fd-ac3c-411ba5750954">
+    <name>ФормаНастройкиЗагрузкиАнкет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки загрузки анкет</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="545a4800-7670-41bc-b453-233e95ba66af">
+    <name>ФормаИнструкции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма инструкции</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9e7505e9-14a5-4671-8b14-9724f0048030">
+    <name>ФормаВводаПараметровСоединения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода параметров соединения</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="79967912-2340-4ed8-bf67-0cbaecf342b4">
+    <name>ФормаРаботыСГрафикой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма работы с графикой</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1b7179af-502d-4432-8a93-cff608091d93">
+    <name>Инструкция0</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция0</value>
+    </synonym>
+  </templates>
+  <templates uuid="fbbba774-10a6-4704-ac1e-3a59d90772df">
+    <name>Инструкция1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция1</value>
+    </synonym>
+  </templates>
+  <templates uuid="d2ba227b-0586-4444-baf0-36a09173b6be">
+    <name>Инструкция2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция2</value>
+    </synonym>
+  </templates>
+  <templates uuid="cfadca42-c37f-4947-a62d-befbe42d4807">
+    <name>Инструкция3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция3</value>
+    </synonym>
+  </templates>
+  <templates uuid="66ffbf1a-6a8f-4898-8f0d-c0be030bd45a">
+    <name>Инструкция4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция4</value>
+    </synonym>
+  </templates>
+  <templates uuid="87bb648a-0f6a-4a92-b686-db2c91d07534">
+    <name>Инструкция5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция5</value>
+    </synonym>
+  </templates>
+  <templates uuid="bbf04400-c8f4-4d09-8e45-66f1d56edec1">
+    <name>Инструкция6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция6</value>
+    </synonym>
+  </templates>
+  <templates uuid="e74d3b81-a57f-4258-ac12-b8c9e1c3e2ef">
+    <name>Инструкция7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция7</value>
+    </synonym>
+  </templates>
+  <templates uuid="dd482b94-0e21-4275-8994-34938aee5671">
+    <name>ИнструкцияТекст0</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция текст0</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="ed7e51d4-0eec-45f4-b9a7-802ff3f3c934">
+    <name>ИнструкцияТекст1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция текст1</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="54191bcc-f38b-46bd-bbf4-e695618fcd29">
+    <name>ИнструкцияТекст2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция текст2</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="7b3ccc64-6387-4e31-b4e0-58833e3c6e98">
+    <name>ИнструкцияТекст3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция текст3</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="1d713ada-e09f-4ada-97d8-d65661a4a8a6">
+    <name>ИнструкцияТекст4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция текст4</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="150b6dd5-418e-4f18-8a86-5118dcc963e1">
+    <name>ИнструкцияТекст5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция текст5</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="28527dc8-e347-4622-a8cb-b6ad822a8c59">
+    <name>ИнструкцияТекст6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция текст6</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="8e1a26b4-1832-4684-90bc-1bbc06b16492">
+    <name>ИнструкцияТекст7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция текст7</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

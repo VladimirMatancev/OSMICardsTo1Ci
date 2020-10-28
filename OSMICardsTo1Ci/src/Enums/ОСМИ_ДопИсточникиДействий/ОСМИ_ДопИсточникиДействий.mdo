@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0459906-2101-424b-8a6d-6f1b89f3e3b6">
+  <producedTypes>
+    <refType typeId="4099b5a8-3ec4-4c42-b4ea-e3727ac47a2f" valueTypeId="61f2a134-ec1e-4f3b-85dc-2799037f81c5"/>
+    <listType typeId="c8afd6d0-838d-4d42-8e12-001d1f621045" valueTypeId="daaff004-f2f2-4e6d-b3e8-733889d36fb7"/>
+    <managerType typeId="192c2f4c-00be-4c2f-8f6b-8a9fd00918d5" valueTypeId="05c49bf1-6835-4e1d-8b41-0d439cf534cf"/>
+  </producedTypes>
+  <name>ОСМИ_ДопИсточникиДействий</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОСМИ доп источники действий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>
